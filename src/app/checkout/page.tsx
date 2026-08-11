@@ -16,10 +16,7 @@ export default function CheckoutPage() {
         if (cart.length === 0) return;
         setLoading(true);
         try {
-            const { url } = await createCheckoutSession(cart);
-            if (url) {
-                window.location.href = url;
-            }
+           await createCheckoutSession(cart);
         } catch (error) {
             alert("Une erreur est survenue lors de l'initialisation du paiement.");
         } finally {
