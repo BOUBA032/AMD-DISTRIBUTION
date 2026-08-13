@@ -70,7 +70,7 @@ const Footer = () => {
                     </div>
                     <div className={styles.contactItem}>
                         <Phone size={16} />
-                        <span>+221 77 344 86 89</span>
+                        <span>+221 76 303 32 51</span>
                     </div>
                     <div className={styles.contactItem}>
                         <Mail size={16} />
